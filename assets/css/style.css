@@ -1156,7 +1156,6 @@ main {
 
   position: absolute;
   width: 741px;
-  height: 300px;
   left: 0px;
   top: 543px;
 }
@@ -1168,6 +1167,15 @@ main {
 .iphone_navlink-item.active {
   display: block;
   min-height: max-content;
+}
+.afterDescription {
+  position: relative;
+  top: -350px;
+}
+
+.afterMain {
+  position: absolute;
+  top: 0px;
 }
 
 .product_title {
@@ -1688,6 +1696,12 @@ main {
   height: 551px;
   padding: 15px;
   background-color: #1e2022;
+}
+
+.tab-2:active .footer_container {
+  position: absolute;
+  left: -2px;
+  top: 6300px;
 }
 
 .footer_logo {

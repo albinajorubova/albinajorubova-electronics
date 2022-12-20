@@ -23,3 +23,16 @@ function onTabClick(item) {
     }
   });
 }
+
+const container = document.querySelector(".footer_container");
+const tabTwo = document.querySelector(".tab-2");
+tabTwo.addEventListener("click", () => {
+  container.style.position = "relative";
+  container.style.top = "4100px";
+});
+
+const tabOne = document.querySelector(".tab-1");
+tabOne.addEventListener("click", () => {
+  container.style.position = "absolute";
+  container.style.top = "2300px";
+});
