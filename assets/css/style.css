@@ -1144,7 +1144,6 @@ main {
 
 .iphone_navlinks:hover {
   color: #f05757;
-  border-bottom: 1px solid #f05757;
 }
 
 .about_product {
@@ -1328,6 +1327,10 @@ main {
 
 .tabReviews {
   margin-top: 70px;
+}
+
+.tabReviews-first {
+  margin-top: 40px;
 }
 
 .tabReviews_nameDate {
