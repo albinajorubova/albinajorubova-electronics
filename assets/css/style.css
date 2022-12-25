@@ -1279,6 +1279,128 @@ main {
   border-bottom: 1px dotted rgb(210, 210, 210);
 }
 
+.dropbtn {
+  background-color: #1e2022;
+  color: #b4b4b8;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  top: -15px;
+  left: 130px;
+}
+
+.tabReviews_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #b4b4b8;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #000000;
+}
+
+.tabReviews {
+  margin-top: 70px;
+}
+
+.tabReviews_nameDate {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.tabReviews_nameDate span:first-of-type {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #1e2022;
+}
+
+.tabReviews_nameDate span:last-of-type {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #8e8e93;
+  margin-left: 5px;
+}
+
+.tabReviews_mark {
+  display: flex;
+
+  margin-top: 10px;
+}
+
+.tabReviews_mark-numb {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 16px;
+  margin-left: 10px;
+  /* Cherry */
+
+  color: #f05757;
+}
+
+.tabReviews_texts {
+  margin-top: 20px;
+}
+
+.tabReviews_text-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #1e2022;
+  margin-bottom: 10px;
+}
+
+.tabReviews_text-mainText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #1e2022;
+  margin-bottom: 10px;
+}
+
 .product_popularreview {
   position: absolute;
   width: 950px;

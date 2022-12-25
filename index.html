@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="./assets/js.js"></script>
+    <script src="./assets/js/js.js"></script>
 
     <script
       src="https://kit.fontawesome.com/02ccc2d4b3.js"
@@ -404,7 +404,7 @@
                 <div type="button" class="iphone_navlinks" data-tab="#tab_5">
                   Обзоры
                 </div>
-                <div type="button" class="iphone_navlinks" data-tab="#tab_6">
+                <div type="button" class="iphone_navlinks tab-6" data-tab="#tab_6">
                   Отзывы
                 </div>
                 <div type="button" class="iphone_navlinks" data-tab="#tab_7">
@@ -701,6 +701,452 @@
                   </div>
                 </section>
               </div>
+
+              
+        
+              <div class="iphone_navlink-item" id="tab_6">
+              
+                <div class="product_title">Отзывы</div>
+                <div class="dropdown">
+                  <button class="dropbtn">Показать</button>
+                  <div class="dropdown-content">
+                    <a class="dropdown-content-button" onclick="sort(arr,arr2,arr3,function(A, B) {return A<B;})">Позитивные</ф>
+                  <a class="dropdown-content-button" onclick="sort(arr,arr2,arr3,function(A, B) {return A>B;})">Негативные</a>
+                  </div>
+                </div>
+              
+             
+                <section class="tabReviews">
+                  <div class="tabReviews_nameDate">
+                    <span id="0">Наталья</span><span>6 Ноября 2017</span>
+                  </div>
+                  <div class="tabReviews_mark" >
+                    <img src="./assets/css/img/nedavno/Star 1 (1).svg" alt="">
+                    <span class="tabReviews_mark-numb"  id="num0"></span>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Достоинства
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     есть
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                       Недостатки
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     нет
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Дополнительно
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate dolorem sunt nemo necessitatibus? Fugiat voluptas dolorem quas illum ex ratione deleniti voluptates! Culpa possimus at consectetur, neque commodi autem.
+                    </div>
+                    </div>
+                  </div>
+                  <div class="iphone_estimations">
+                    <div class="iphone_likes">
+                      <img
+                        class="iphone_likesicon growth"
+                        src="./assets/css/img/apple/likes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes">12</div>
+                    </div>
+
+                    <div class="iphone_dislikes">
+                      <img
+                        class=".iphone_dislikesicon growth"
+                        src="./assets/css/img/apple/dislikes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes grey">2</div>
+                    </div>
+
+                    <a href="#" class="iphone_dalee">Комментировать</a>
+                  </div>
+                </section>
+
+
+
+                <section class="tabReviews">
+                  <div class="tabReviews_nameDate">
+                    <span id="1">Наталья</span><span>6 Ноября 2017</span>
+                    
+                  </div>
+                  <div class="tabReviews_mark" >
+                    <img src="./assets/css/img/nedavno/Star 1 (1).svg" alt="">
+                    <span class="tabReviews_mark-numb"  id="num1"></span>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Достоинства
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     есть
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                       Недостатки
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     нет
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Дополнительно
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate dolorem sunt nemo necessitatibus? Fugiat voluptas dolorem quas illum ex ratione deleniti voluptates! Culpa possimus at consectetur, neque commodi autem.
+                    </div>
+                    </div>
+                  </div>
+                  <div class="iphone_estimations">
+                    <div class="iphone_likes">
+                      <img
+                        class="iphone_likesicon growth"
+                        src="./assets/css/img/apple/likes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes">12</div>
+                    </div>
+
+                    <div class="iphone_dislikes">
+                      <img
+                        class=".iphone_dislikesicon growth"
+                        src="./assets/css/img/apple/dislikes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes grey">2</div>
+                    </div>
+
+                    <a href="#" class="iphone_dalee">Комментировать</a>
+                  </div>
+                </section>
+
+
+                <section class="tabReviews">
+                  <div class="tabReviews_nameDate">
+                    <span id="2">Наталья</span><span>6 Ноября 2017</span>
+                  </div>
+                  <div class="tabReviews_mark" >
+                    <img src="./assets/css/img/nedavno/Star 1 (1).svg" alt="">
+                    <span class="tabReviews_mark-numb"  id="num2"></span>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Достоинства
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     есть
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                       Недостатки
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     нет
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Дополнительно
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate dolorem sunt nemo necessitatibus? Fugiat voluptas dolorem quas illum ex ratione deleniti voluptates! Culpa possimus at consectetur, neque commodi autem.
+                    </div>
+                    </div>
+                  </div>
+                  <div class="iphone_estimations">
+                    <div class="iphone_likes">
+                      <img
+                        class="iphone_likesicon growth"
+                        src="./assets/css/img/apple/likes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes">12</div>
+                    </div>
+
+                    <div class="iphone_dislikes">
+                      <img
+                        class=".iphone_dislikesicon growth"
+                        src="./assets/css/img/apple/dislikes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes grey">2</div>
+                    </div>
+
+                    <a href="#" class="iphone_dalee">Комментировать</a>
+                  </div>
+                </section>
+                 
+                <section class="tabReviews">
+                  <div class="tabReviews_nameDate">
+                    <span id="3">Наталья</span><span>6 Ноября 2017</span>
+                  </div>
+                  <div class="tabReviews_mark" >
+                    <img src="./assets/css/img/nedavno/Star 1 (1).svg" alt="">
+                    <span class="tabReviews_mark-numb"  id="num3"></span>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Достоинства
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     есть
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                       Недостатки
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     нет
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Дополнительно
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate dolorem sunt nemo necessitatibus? Fugiat voluptas dolorem quas illum ex ratione deleniti voluptates! Culpa possimus at consectetur, neque commodi autem.
+                    </div>
+                    </div>
+                  </div>
+                  <div class="iphone_estimations">
+                    <div class="iphone_likes">
+                      <img
+                        class="iphone_likesicon growth"
+                        src="./assets/css/img/apple/likes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes">12</div>
+                    </div>
+
+                    <div class="iphone_dislikes">
+                      <img
+                        class=".iphone_dislikesicon growth"
+                        src="./assets/css/img/apple/dislikes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes grey">2</div>
+                    </div>
+
+                    <a href="#" class="iphone_dalee">Комментировать</a>
+                  </div>
+                </section>
+
+                <section class="tabReviews">
+                  <div class="tabReviews_nameDate">
+                    <span id="4">Наталья</span><span>6 Ноября 2017</span>
+                  </div>
+                  <div class="tabReviews_mark" >
+                    <img src="./assets/css/img/nedavno/Star 1 (1).svg" alt="">
+                    <span class="tabReviews_mark-numb"  id="num4"></span>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Достоинства
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     есть
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                       Недостатки
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     нет
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Дополнительно
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate dolorem sunt nemo necessitatibus? Fugiat voluptas dolorem quas illum ex ratione deleniti voluptates! Culpa possimus at consectetur, neque commodi autem.
+                    </div>
+                    </div>
+                  </div>
+                  <div class="iphone_estimations">
+                    <div class="iphone_likes">
+                      <img
+                        class="iphone_likesicon growth"
+                        src="./assets/css/img/apple/likes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes">12</div>
+                    </div>
+
+                    <div class="iphone_dislikes">
+                      <img
+                        class=".iphone_dislikesicon growth"
+                        src="./assets/css/img/apple/dislikes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes grey">2</div>
+                    </div>
+
+                    <a href="#" class="iphone_dalee">Комментировать</a>
+                  </div>
+                </section>
+
+                <section class="tabReviews">
+                  <div class="tabReviews_nameDate">
+                    <span id="5">Наталья</span><span>6 Ноября 2017</span>
+                  </div>
+                  <div class="tabReviews_mark" >
+                    <img src="./assets/css/img/nedavno/Star 1 (1).svg" alt="">
+                    <span class="tabReviews_mark-numb"  id="num5"></span>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Достоинства
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     есть
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                       Недостатки
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     нет
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Дополнительно
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate dolorem sunt nemo necessitatibus? Fugiat voluptas dolorem quas illum ex ratione deleniti voluptates! Culpa possimus at consectetur, neque commodi autem.
+                    </div>
+                    </div>
+                  </div>
+                  <div class="iphone_estimations">
+                    <div class="iphone_likes">
+                      <img
+                        class="iphone_likesicon growth"
+                        src="./assets/css/img/apple/likes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes">12</div>
+                    </div>
+
+                    <div class="iphone_dislikes">
+                      <img
+                        class=".iphone_dislikesicon growth"
+                        src="./assets/css/img/apple/dislikes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes grey">2</div>
+                    </div>
+
+                    <a href="#" class="iphone_dalee">Комментировать</a>
+                  </div>
+                </section>
+
+                <section class="tabReviews">
+                  <div class="tabReviews_nameDate">
+                    <span id="6">Наталья</span><span>6 Ноября 2017</span>
+                  </div>
+                  <div class="tabReviews_mark" >
+                    <img src="./assets/css/img/nedavno/Star 1 (1).svg" alt="">
+                    <span class="tabReviews_mark-numb"  id="num6"></span>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Достоинства
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     есть
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                       Недостатки
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     нет
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tabReviews_texts">
+                    <div class="tabReviews_text">
+                      <div class="tabReviews_text-title">
+                        Дополнительно
+                      </div>
+                      <div class="tabReviews_text-mainText">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate dolorem sunt nemo necessitatibus? Fugiat voluptas dolorem quas illum ex ratione deleniti voluptates! Culpa possimus at consectetur, neque commodi autem.
+                    </div>
+                    </div>
+                  </div>
+                  <div class="iphone_estimations">
+                    <div class="iphone_likes">
+                      <img
+                        class="iphone_likesicon growth"
+                        src="./assets/css/img/apple/likes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes">12</div>
+                    </div>
+
+                    <div class="iphone_dislikes">
+                      <img
+                        class=".iphone_dislikesicon growth"
+                        src="./assets/css/img/apple/dislikes.svg"
+                        alt=""
+                      />
+                      <div class="iphone_sumlikes grey">2</div>
+                    </div>
+
+                    <a href="#" class="iphone_dalee">Комментировать</a>
+                  </div>
+                </section>
+</div>
 
 
 
@@ -1051,6 +1497,7 @@
 
              
  
-    <script src="./assets/tabs.js"></script>
+    <script src="./assets/js/tabs.js"></script>
+    <script src="./assets/js/fetch_js.js"></script>
   </body>
 </html>
