@@ -1632,6 +1632,7 @@ main {
   height: 460px;
   position: absolute;
   top: 900px;
+  overflow: hidden;
 }
 
 .iphone_watcheditems {
@@ -1641,20 +1642,39 @@ main {
   align-items: center;
   padding: 0px;
   gap: 20px;
-
+  /* margin-top: 70px; */
   position: absolute;
-  width: 1120px;
+  min-width: 1250px;
   height: 411px;
   left: 0px;
   top: 48px;
+  overflow: hidden;
+
+  scroll-behavior: smooth;
 }
 
 .iphone_iconright {
   position: absolute;
   width: 30px;
   height: 30px;
-  right: 380px;
-  top: -50px;
+  right: 405px;
+  top: 0px;
+}
+
+.iphone_iconleft {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 1120px;
+  top: 0px;
+}
+
+.iphone_iconright:active {
+  border-color: #fff;
+}
+
+#prev {
+  display: none;
 }
 
 .iphone_watchedcard {

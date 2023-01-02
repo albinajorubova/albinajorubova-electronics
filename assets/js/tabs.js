@@ -55,3 +55,39 @@ tabOne.addEventListener("click", () => {
   recentlyWatched.style.position = "absolute";
   recentlyWatched.style.top = "900px";
 });
+
+// карусель iphone_recentlywatched
+
+const carousel = document.getElementById("carousel"),
+  content = document.getElementById("content"),
+  next = document.getElementById("next"),
+  prev = document.getElementById("prev"),
+  clicked1 = document.querySelectorAll(".iphone_watchedcard").length - 4;
+console.log(clicked1);
+let n = 0;
+for (let k = 0; k <= clicked1; k++)
+  next.onclick = function () {
+    if (carousel.style.marginLeft !== n + "px") {
+      prev.style.display = "flex";
+    }
+    if (carousel.style.marginLeft == "-564px") {
+      next.style.display = "none";
+    }
+    if (carousel.style.marginLeft !== "-564px") {
+      next.style.display = "flex";
+    }
+    n += -282;
+    carousel.style.marginLeft = n + "px";
+    console.log("clicked");
+    k++;
+  };
+
+for (let k = 0; k < clicked1; k++)
+  prev.onclick = function () {
+    if (carousel.style.marginLeft == "-282px") {
+      prev.style.display = "none";
+    }
+    n += +282;
+    carousel.style.marginLeft = n + "px";
+    console.log("clicked");
+  };
