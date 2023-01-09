@@ -91,3 +91,14 @@ for (let k = 0; k < clicked1; k++)
     carousel.style.marginLeft = n + "px";
     console.log("clicked");
   };
+
+// const heartItem = document.querySelectorAll(".iphone_iconheart");
+// function heart() {
+//   if (!heartItem.classList.contains("active")) {
+//     heartItem.classList.add("active");
+//   } else {
+//     heartItem.classList.remove("active");
+//   }
+// }
+
+// heartItem.onclick = heart;

@@ -971,7 +971,7 @@ main {
 
 .iphone_addtocart:active,
 .iphone_buttoncart:active {
-  background: #c23535;
+  background-color: #c23535;
 }
 
 .iphone_navlink {
@@ -1808,6 +1808,11 @@ main {
   top: 0px;
 }
 
+.iphone_buttoncart.active {
+  background: #c03d3d;
+  border: 1px solid #c03d3d;
+}
+
 .iphone_iconbuttoncart {
   position: absolute;
   left: 30px;
@@ -1820,6 +1825,17 @@ main {
   height: 32px;
   left: 96px;
   top: 11px;
+  z-index: 1;
+}
+
+.iphone_iconheart.active {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 96px;
+  top: 11px;
+  background-color: #c03d3d;
+  z-index: 2;
 }
 
 .iphone_iconheart:hover,
